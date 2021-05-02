@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkslategray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+main {
+  width: 400px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+main h2 {
+  margin-bottom: 20px;
+}
+
+main ul {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  list-style: none;
+}
+
+main ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  background-color: gainsboro;
+  color: brown;
+  padding: 20px;
+  margin: 50px 0;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
